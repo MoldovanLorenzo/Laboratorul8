@@ -1,22 +1,23 @@
-## Operatii Class Explanation
+## Explicația Clasei Operatii
 
 ### `double add(double n1, double n2) throws Exception`
 
-This method takes two double values, `n1` and `n2`, as input and calculates their sum. It also checks for specific conditions:
+Această metodă primește două valori de tip dublu, `n1` și `n2`, ca parametri și calculează suma lor. De asemenea, verifică anumite condiții:
 
-- If both `n1` and `n2` are equal to 0, it throws an exception with the message "Numerele sunt nule."
-- If the sum of `n1` and `n2` is equal to positive infinity, it throws an exception with the message "suma celor 2 numere este egala cu +infinit."
-- If the sum of `n1` and `n2` is equal to negative infinity, it throws an exception with the message "suma celor 2 numere este egala cu -infinit."
+- Dacă atât `n1` cât și `n2` sunt egale cu 0, aruncă o excepție cu mesajul "Numerele sunt nule."
+- Dacă suma dintre `n1` și `n2` este egală cu infinit pozitiv, aruncă o excepție cu mesajul "suma celor 2 numere este egală cu +infinit."
+- Dacă suma dintre `n1` și `n2` este egală cu infinit negativ, aruncă o excepție cu mesajul "suma celor 2 numere este egală cu -infinit."
 
 ### `double divide(double n1, double n2) throws Exception`
 
-This method takes two double values, `n1` and `n2`, as input and calculates their division. It also checks for specific conditions:
+Această metodă primește două valori de tip dublu, `n1` și `n2`, ca parametri și calculează rezultatul împărțirii lor. De asemenea, verifică anumite condiții:
 
-- If both `n1` and `n2` are equal to 0, it throws an exception with the message "Numerele sunt nule."
-- If the sum of `n1` and `n2` is equal to positive infinity, it throws an exception with the message "suma celor 2 numere este egala cu +infinit."
-- If the sum of `n1` and `n2` is equal to negative infinity, it throws an exception with the message "suma celor 2 numere este egala cu -infinit."
+- Dacă atât `n1` cât și `n2` sunt egale cu 0, aruncă o excepție cu mesajul "Numerele sunt nule."
+- Dacă suma dintre `n1` și `n2` este egală cu infinit pozitiv, aruncă o excepție cu mesajul "suma celor 2 numere este egală cu +infinit."
+- Dacă suma dintre `n1` și `n2` este egală cu infinit negativ, aruncă o excepție cu mesajul "suma celor 2 numere este egală cu -infinit."
 
 ### `double average(List<Double> valori) throws Exception`
 
-This method calculates the average of a list of double values. It takes a list of double values, `valori`, as input. The method iterates through the list, summing up all the values and then divides by the number
-# Laboratorul8
+Această metodă calculează media unei liste de valori de tip dublu. Ea primește ca parametru o listă de valori de tip dublu, `valori`. Metoda iterează prin lista, adunând toate valorile și apoi le împarte la numărul de elemente din listă pentru a calcula media.
+
+- Dacă lista este goală, adică nu conține niciun element, metoda va arunca o excepție cu mesajul "Eroare la calculul mediei: lista este goală."
